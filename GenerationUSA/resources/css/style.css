@@ -1,0 +1,9 @@
+header {
+color: darkblue;
+text-align: center;
+background-image: url("resources/images/backgroundimage.jpg");
+height: 400px;
+background-position: center;
+background-size: cover;
+margin: 10px;
+}
