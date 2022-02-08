@@ -1,9 +1,63 @@
-header {
-color: darkblue;
-text-align: center;
-background-image: url("resources/images/backgroundimage.jpg");
-height: 400px;
+body {
+    margin: 0;
+}
+
+
+.box {
+background-image: url('../images/backgroundimage.jpg');
 background-position: center;
 background-size: cover;
-margin: 10px;
+background-repeat: no-repeat;
+height: 20rem;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+opacity: 0.4;
+}
+
+.box h1 {
+    color: rgb(51, 238, 48);
+    font-size: 3rem;
+}
+
+.card-group {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    margin-left: 80px;
+}
+
+header {
+    background-image: url('../images/backgroundimage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.6;
+    height: 20rem;
+}
+
+h1 {
+    color: rgb(94, 236, 91);
+    font-size: 4rem;
+}
+
+.carousel {
+    width: 840px;
+    height: 460px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 130px;
+}
+
+.carousel-inner > .carousel-img > img {
+   height: 100vh;
+
 }
