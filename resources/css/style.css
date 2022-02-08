@@ -32,6 +32,19 @@ opacity: 0.8;
     margin-left: 80px;
 }
 
+.header {
+background-image: url('/resources/images/backgroundimage.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 20rem;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+opacity: 0.8;
+}
+
 h1 {
     color: rgb(94, 236, 91);
     font-size: 4rem;
