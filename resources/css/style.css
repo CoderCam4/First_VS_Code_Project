@@ -14,11 +14,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-opacity: 0.4;
+opacity: 0.8;
 }
 
 .box h1 {
-    color: rgb(51, 238, 48);
+    color: rgb(7, 12, 1);
     font-size: 3rem;
 }
 
@@ -30,19 +30,6 @@ opacity: 0.4;
 
 .card {
     margin-left: 80px;
-}
-
-header {
-    background-image: url('/resources/images/backgroundimage.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    opacity: 0.6;
-    height: 20rem;
 }
 
 h1 {
